@@ -109,7 +109,7 @@ strong {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 22px;
   text-decoration: none;
 }
   
@@ -144,6 +144,9 @@ strong {
   text-align: center;
 }
 
+.contacts {
+  padding: 100px 50px;
+}
 
 @media screen and (max-width: 900px) {
   h1 {
