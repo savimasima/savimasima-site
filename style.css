@@ -72,7 +72,8 @@ strong {
 }
 
 .about {
-  padding: 100px 0;
+  padding: 50px 0;
+  margin: 50px 0;
 }
 
 .about-text {
@@ -122,17 +123,6 @@ strong {
   padding: 190px 20px;
 }
 
-.hero-homepage {
-  padding: 150px 20px;
-  text-align: center;
-}
-
-.hero-homepage h3 {
-  font-weight: normal;
-  padding-top: 20px;
-  font-size: 25px;
-}
-
 .hero h2 {
   font-size: 24px;
   font-weight: normal;
@@ -175,11 +165,7 @@ strong {
     padding: 130px 20px;
   }
 
-  .hero-homepage {
-    padding: 80px 20px;
-  }
-
   .project-desciption {
-    padding: 0;
+    padding: 10px 0 50px 0;
   }
 }
