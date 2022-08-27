@@ -129,6 +129,10 @@ strong {
   line-height: 2;
 }
 
+.portfolio {
+  padding-top: 25px;
+}
+
 .project-desciption {
   padding: 30px;
   text-align: center;
@@ -147,6 +151,11 @@ strong {
     font-size: 40px;
   }
 
+  .about {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
   .about-paragraphs {
     margin: 0;
   }
@@ -163,6 +172,10 @@ strong {
 
   .hero {
     padding: 130px 20px;
+  }
+
+  .portfolio {
+    padding: 0;
   }
 
   .project-desciption {
