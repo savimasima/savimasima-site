@@ -1,3 +1,5 @@
+'use client';
+
 import { useEffect, useRef } from 'react';
 
 const HeroSection = () => {
@@ -29,11 +31,7 @@ const HeroSection = () => {
         <p className="hero-subtitle" data-testid="hero-subtitle">
           Boutique Web Studio — Belfast
         </p>
-        <a
-          href="mailto:savimasima@gmail.com"
-          className="btn-primary"
-          data-testid="hero-cta-button"
-        >
+        <a href="mailto:savimasima@gmail.com" className="btn-primary" data-testid="hero-cta-button">
           Book a free 20-min call
         </a>
       </div>

@@ -1,3 +1,5 @@
+'use client';
+
 import { useEffect, useState } from 'react';
 
 const NAV_LINKS = [
@@ -54,13 +56,7 @@ const Header = () => {
         </a>
         <nav className={`nav-menu${isMenuOpen ? ' active' : ''}`} id="navMenu" aria-label="Primary navigation">
           {NAV_LINKS.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              className="nav-link"
-              data-testid={link.testId}
-              onClick={closeMenu}
-            >
+            <a key={link.href} href={link.href} className="nav-link" data-testid={link.testId} onClick={closeMenu}>
               {link.label}
             </a>
           ))}

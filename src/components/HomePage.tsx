@@ -1,12 +1,14 @@
+'use client';
+
 import { useEffect } from 'react';
-import Header from '../components/Header';
-import HeroSection from '../components/Hero/HeroSection';
-import AboutSection from '../components/About/AboutSection';
-import ServicesSection from '../components/Services/ServicesSection';
-import PortfolioSection from '../components/Portfolio/PortfolioSection';
-import PricingSection from '../components/Pricing/PricingSection';
-import ContactSection from '../components/Contact/ContactSection';
-import Footer from '../components/Footer';
+import Header from './Header';
+import HeroSection from './Hero/HeroSection';
+import AboutSection from './About/AboutSection';
+import ServicesSection from './Services/ServicesSection';
+import PortfolioSection from './Portfolio/PortfolioSection';
+import PricingSection from './Pricing/PricingSection';
+import ContactSection from './Contact/ContactSection';
+import Footer from './Footer';
 
 const HomePage = () => {
   useEffect(() => {
