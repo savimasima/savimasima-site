@@ -1,6 +1,8 @@
 export type PricingCard = {
   title: string;
   subline?: string;
+  price?: string;
+  period?: string;
   bullets: string[];
   timeline?: string;
   ctaLabel: string;
@@ -10,8 +12,10 @@ export type PricingCard = {
 
 export const pricingCards: PricingCard[] = [
   {
-    title: 'Hourly Development — £45/h',
-    subline: 'Best for: ongoing tasks, fixes, minor features.',
+    title: 'Hourly Development',
+    price: '£45',
+    period: '/hour',
+    subline: 'Best for: ongoing tasks, fixes, and micro-features.',
     bullets: [
       'React/Next.js, Webflow, WordPress',
       'Stripe/OpenAI integrations',
@@ -20,11 +24,13 @@ export const pricingCards: PricingCard[] = [
     ],
     ctaLabel: 'Book hours',
     ctaHref: 'mailto:savimasima@gmail.com?subject=Book%20development%20hours',
-    note: 'Add-on: 10-hour sprint (prepaid) — £400',
+    note: '10-hour Sprint (prepaid) — £400',
   },
   {
-    title: 'Landing / Mini-site — from £500',
-    subline: 'Best for: a fast one-pager or portfolio that loads fast.',
+    title: 'Landing / Mini-site',
+    price: '£500',
+    period: 'from',
+    subline: 'Best for: fast one-pager or portfolio.',
     bullets: [
       'Responsive, semantic build',
       'Light animations',
@@ -36,12 +42,14 @@ export const pricingCards: PricingCard[] = [
     ctaHref: 'mailto:savimasima@gmail.com?subject=Landing%20or%20mini-site%20project',
   },
   {
-    title: 'CMS / Business Site — from £1,000',
+    title: 'CMS / Business Site',
+    price: '£1,000',
+    period: 'from',
     subline: 'Best for: content sites and small businesses needing structure and growth.',
     bullets: [
       'Webflow CMS / WordPress',
       'Collections & filters',
-      'Forms + basic automations',
+      'Forms + automations',
       'Performance & SEO setup',
       'Domain + SSL, handover',
     ],
@@ -50,11 +58,13 @@ export const pricingCards: PricingCard[] = [
     ctaHref: 'mailto:savimasima@gmail.com?subject=CMS%20or%20business%20site%20enquiry',
   },
   {
-    title: 'React/Next Feature — from £2,500',
-    subline: 'Best for: a functional module or mini-app inside your product/site.',
+    title: 'React/Next Feature',
+    price: '£2,500',
+    period: 'from',
+    subline: 'Best for: functional modules or mini-apps.',
     bullets: [
       'Component architecture',
-      'Integrations (Stripe / OpenAI / REST)',
+      'Stripe / OpenAI / REST integrations',
       'Basic tests + deploy',
       'Short documentation',
     ],

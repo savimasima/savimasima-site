@@ -28,9 +28,9 @@ const PricingSection = () => {
           </a>
         </div>
         <p className="pricing-addons">
-          <span>- 10-hour sprint (prepaid) — £400</span>
-          <span>- Performance / SEO audit — £250</span>
-          <span>- Maintenance retainer — from £300/mo</span>
+          <span>Performance / SEO audit — £250</span>
+          <span>•</span>
+          <span>Maintenance — from £300/mo</span>
         </p>
       </div>
     </section>

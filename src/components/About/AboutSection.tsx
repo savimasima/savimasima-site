@@ -12,17 +12,16 @@ const AboutSection = () => {
         <div className="about-text fade-in-right" data-testid="about-text">
           <h2>About Savimasima</h2>
           <p className="about-paragraph">
-            I’m Maria Surskova, a Belfast-based Front-End Developer running Savimasima — Front-End &amp; Webflow Studio. I build
-            fast, accessible, and maintainable web experiences using React, TypeScript, Next.js, and Webflow.
+            I'm Maria Surskova, a Belfast-based Front-End Developer running Savimasima — a lean web-engineering studio focused on fast, accessible, and maintainable builds.
           </p>
           <p className="about-paragraph">
-            I care about clean structure, Core Web Vitals, and sensible architecture. From CMS sites to Stripe subscriptions and
-            OpenAI integrations, I ship stable, documented features teams can grow. Available for hourly development and
-            fixed-from projects across the UK/EU/US.
+            I work with React, Next.js, and Webflow to turn real designs into production-ready websites and features — clean structure, high performance, and sensible architecture first.
+          </p>
+          <p className="about-paragraph">
+            From CMS sites to Stripe integrations and OpenAI-powered components, I deliver stable, documented builds that teams can grow.
           </p>
           <p className="about-facts">
-            Stack: React · TypeScript · Next.js · Webflow&nbsp; • &nbsp;Focus: performance &amp; accessibility&nbsp; • &nbsp;Regions:
-            UK/EU/US
+            Stack: React · TypeScript · Next.js · Webflow&nbsp; • &nbsp;Focus: performance &amp; accessibility&nbsp; • &nbsp;Regions: UK/EU/US
           </p>
         </div>
       </div>

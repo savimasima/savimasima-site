@@ -11,6 +11,13 @@ const PricingCard = ({ card, isFeatured }: PricingCardProps) => {
     <div className={`pricing-card${isFeatured ? ' featured' : ''} fade-in`}>
       {isFeatured ? <span className="featured-badge">Popular</span> : null}
       <h3>{card.title}</h3>
+      {card.price ? (
+        <div className="pricing-amount">
+          <span className="pricing-period-small">{card.period}</span>
+          <span className="pricing-price">{card.price}</span>
+          {card.period === '/hour' && <span className="pricing-period">/hour</span>}
+        </div>
+      ) : null}
       {card.subline ? <p className="pricing-subline-text">{card.subline}</p> : null}
       <ul className="pricing-features">
         {card.bullets.map((bullet) => (
